@@ -55,6 +55,7 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="MK0-hX-3Aa" id="AFw-DI-Z8w"/>
+                        <outlet property="textField" destination="WYg-Zq-L3i" id="CTG-2n-s0y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

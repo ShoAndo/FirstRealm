@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		9FC9C7C822EFCFE60006B44F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC9C7C622EFCFE60006B44F /* Main.storyboard */; };
 		9FC9C7CA22EFCFE80006B44F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC9C7C922EFCFE80006B44F /* Assets.xcassets */; };
 		9FC9C7CD22EFCFE80006B44F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC9C7CB22EFCFE80006B44F /* LaunchScreen.storyboard */; };
+		9FC9C7D522EFD7F90006B44F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC9C7D422EFD7F90006B44F /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9FC9C7C922EFCFE80006B44F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC9C7CC22EFCFE80006B44F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC9C7CE22EFCFE80006B44F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC9C7D422EFD7F90006B44F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				9FC9C7C922EFCFE80006B44F /* Assets.xcassets */,
 				9FC9C7CB22EFCFE80006B44F /* LaunchScreen.storyboard */,
 				9FC9C7CE22EFCFE80006B44F /* Info.plist */,
+				9FC9C7D422EFD7F90006B44F /* Item.swift */,
 			);
 			path = FirstRealm;
 			sourceTree = "<group>";
@@ -85,7 +88,6 @@
 				19DAC1239A589683451EFC4A /* Pods-FirstRealm.debug.xcconfig */,
 				27BF8291D4D1BED3ABE30A78 /* Pods-FirstRealm.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC9C7C522EFCFE60006B44F /* ViewController.swift in Sources */,
+				9FC9C7D522EFD7F90006B44F /* Item.swift in Sources */,
 				9FC9C7C322EFCFE60006B44F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
